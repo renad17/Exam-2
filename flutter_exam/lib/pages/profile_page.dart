@@ -22,7 +22,7 @@ class ProfilePage extends StatelessWidget {
             const Icon(
               Icons.settings,
               color: Color.fromARGB(255, 205, 126, 9),
-            )
+            ),
           ],
         ),
       ),
@@ -47,14 +47,19 @@ class ProfilePage extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.fromLTRB(18, 0, 0, 0),
-            child: Row(children: [
-              Icon(Icons.payments_outlined,color: Colors.grey,),
-              SizedBox(
-                width: 14,
-              ),
-              Text('Payment Cards')
-            ],),
-          )
+            child: Row(
+              children: [
+                Icon(
+                  Icons.payments_outlined,
+                  color: Colors.grey,
+                ),
+                SizedBox(
+                  width: 14,
+                ),
+                Text('Payment Cards')
+              ],
+            ),
+          ),
         ],
       ),
     );
