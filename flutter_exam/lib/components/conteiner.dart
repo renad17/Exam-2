@@ -14,7 +14,7 @@ class Conteiner extends StatelessWidget {
         ],
         color: Color.fromARGB(255, 255, 255, 255),
         borderRadius: BorderRadius.all(
-          Radius.circular(20.0),
+          Radius.circular(10.0),
         ),
       ),
     );

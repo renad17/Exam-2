@@ -36,7 +36,7 @@ class ProfilePage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: EdgeInsets.all(16.0),
+            padding: EdgeInsets.all(28.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -44,6 +44,16 @@ class ProfilePage extends StatelessWidget {
                 Conteiner(),
               ],
             ),
+          ),
+          Padding(
+            padding: EdgeInsets.fromLTRB(18, 0, 0, 0),
+            child: Row(children: [
+              Icon(Icons.payments_outlined,color: Colors.grey,),
+              SizedBox(
+                width: 14,
+              ),
+              Text('Payment Cards')
+            ],),
           )
         ],
       ),
